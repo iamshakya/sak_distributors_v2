@@ -1,9 +1,9 @@
-import React from "react";
+import React, { ReactElement } from 'react'
 
-import "./App.css";
+import './App.css'
 
-function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+const App = (): ReactElement => {
+  return <div className="text-3xl font-bold underline">Hello world!</div>
 }
 
-export default App;
+export default App

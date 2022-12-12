@@ -4,3 +4,4 @@ coverage
 .github/workflows
 beta_instance_build_scripts
 nginx_configurations
+./src/features
